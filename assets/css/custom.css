@@ -1,0 +1,248 @@
+label.error {
+	color : #d51510;
+	/* margin-top : -12px; */
+}
+.caps {
+	text-transform: capitalize;
+}
+.req {
+	color : #F00;
+}
+.team-list li {
+	font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    padding: 13px 30px;
+    border-bottom: 1px solid #F0F0F0;
+}
+.campaign-ribbon {
+	background-color: #ef912a;
+	overflow: hidden;
+	position: absolute;
+	/*left:0;*/
+	top:0.5em;
+	z-index:2;
+	/*-webkit-transform: rotate(-40deg);
+	-moz-transform:    rotate(-40deg);
+	transform:         rotate(-40deg);*/
+}
+
+.campaign-ribbon a {
+	font: 700 11px 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 0.05em 0 0.075em 0;
+	padding: 6px 3em 6px;
+}
+.campaign-ribbon.success {
+	background-color: #04937f;
+	padding-left: 0.65em;
+}
+
+.campaign-ribbon.unsuccess {
+	background-color: #eb5959;
+}
+
+
+
+/************* Custom CSS *************/
+
+
+
+
+.Join-Volunteer-Pages .Theme-title {
+    margin: 20px 0 30px;
+}
+.Theme-title h2 {
+    font-weight: 700;
+}
+
+.dnt_btn, .dnt_btn {
+    font-size: 15px;
+    padding: 7px 25px;
+    color: #228ae6;
+    border: solid 1px #228ae6;
+    font-weight: 600;
+    background: transparent;
+}
+.dnt_btn:hover, .dnt_btn:hover {
+    color: #fff;
+    background: #228ae6;
+}
+.new_row1 {
+    border: 1px solid #dadada !important;
+    padding: 35px 20px !important;
+    margin: 0 !important;
+    border-radius: 5px;
+}
+
+.Join-Volunteer-Pages .single-input {
+    height: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.Join-Volunteer-Pages .single-input>.bootstrap-select.btn-group:not(.input-group-btn) {
+    width: 100% !important;
+    height: 100% !important;
+    border: solid 1px #e5e2e2;
+}
+
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.Join-Volunteer-Pages form>button {
+    width: 194px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #228ae6;
+}
+
+
+.donttxt{
+	font-size: 20px;
+    line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
+    color: #171616;
+    text-transform: none;
+    font-weight: 500;
+}
+.dontpxt{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.7);
+}
+.payment_tab .nav-tabs1>li {
+    float: inherit;
+    margin-bottom: -1px;
+    background: #f7f7f7;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+}
+.payment_tab .nav-tabs1>li.active a {
+    background: #228ae6;
+    color: #FFF;
+    border-radius: 0;
+	border-bottom-color: #228ae6;
+}
+.payment_tab .nav-tabs1>li a {
+    font-size: 16px;
+    color: #333;
+    padding: 20px 0px;
+	margin-right: 0px;
+}
+.payment_tab .nav-tabs {
+    padding-bottom: 30px;
+    border-bottom: 0 !important;
+}
+.payment_tab .tab-content .tab-pane.active {
+    border: 1px solid #228ae6;
+    padding: 20px 10px;
+}
+.payment_tab .tab-content .tab-pane {
+    padding: 20px;
+}
+.frm_ip {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 20px !important;
+    border: solid 1px #e5e2e2 !important;
+}
+.payment-method-logo {
+    width: auto;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 0px;
+    list-style: none;
+    padding: 0px 10px;
+}
+.payment-method-logo > li {
+    float: left;
+    /* width: 62px; */
+    width: 14%;
+    margin-bottom: 5px;
+    padding: 0 5px !important;
+    border: none;
+    display: inline-block;
+    min-height: 34px;
+    border-top-left-radius: 8px;
+}
+.payment-method-logo > li img {
+    width: 100%;
+}
+.r_ip img {
+    max-width: 120px;
+    float: left;
+    padding-left: 5px;
+}
+.r_ip {
+    margin-bottom: 25px;
+}
+.r_ip .rr_ip {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 15%;
+}
+
+.bxpost{
+	border: 1px solid #c9bebe;
+    border-radius: 5px;
+    padding: 13px;
+}
+.pabt14{
+	padding-bottom: 14px;
+}
+.bxpost h5{
+	font-size: 17px;
+    padding-bottom: 8px;
+}
+.ptn{
+	background-color: #228ae6 !important;
+    border-color: #228ae6 !important;
+}
+.ptn1 {
+    background-color: #ffffff !important;
+    border-color: #228ae6 !important;
+    color: #228ae6;
+}
+.ptn1:hover {
+    color: #000 !important;
+   
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+   
+    background-color: #228ae6 !important;
+}
+
+.tabhed h4{
+	font-size: 15px;
+}
+
+.dash h2{
+	font-weight: 700;
+    display: inline-block;
+    font-size: 24px;
+    color: #373a3c;
+    text-align: left;
+    margin-bottom: 30px;
+	padding-top: 30px;
+}

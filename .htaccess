@@ -1,0 +1,31 @@
+RewriteEngine on
+
+DirectoryIndex index.php
+#ErrorDocument 404 http://thavasu.com/demo/equity-crowdfunding/
+
+RewriteRule ^index/([^/]*)/$ index.php [L]
+RewriteRule ^about/([^/]*)/$ about.php [L]
+RewriteRule ^list/([^/]*)/$ list.php [L]
+RewriteRule ^start-post/([^/]*)/$ start-post.php [L]
+RewriteRule ^project-post/([^/]*)/$ project-post.php [L]
+RewriteRule ^faq/([^/]*)/$ faq.php [L]
+RewriteRule ^contact/([^/]*)/$ contact.php [L]
+RewriteRule ^login/([^/]*)/$ login.php [L,QSA]
+RewriteRule ^register/([^/]*)/$ register.php [L]
+
+RewriteRule ^detail/([^/]*)/([^/]*)/ list-detail.php?id=$2 [L]
+RewriteRule ^user-dashboard/([^/]*)/$ user-dashboard.php?rmv=$1 [L]
+RewriteRule ^edit-project/([^/]*)/$ project-post.php?prjt=$1 [L]
+RewriteRule ^user-listing/([^/]*)/$ user-listing.php?rmv=$1 [L]
+RewriteRule ^pay-upload/([^/]*)/$ pay-upload.php?pid=$1 [L]
+RewriteRule ^change-pass/([^/]*)/$ change-pass.php?delt=$1 [L]
+RewriteRule ^login/invest/([^/]*)/$ login.php?invst=$1 [L]
+RewriteRule ^login/follow/([^/]*)/$ login.php?flw=$1 [L]
+RewriteRule ^login/enquiry/([^/]*)/$ login.php?enq=$1 [L]
+RewriteRule ^login/askques/([^/]*)/$ login.php?askq=$1 [L]
+RewriteRule ^login/payup/([^/]*)/$ login.php?payup=$1 [L]
+RewriteRule ^invest/([^/]*)/$ invest.php?invid=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)/$ $1.php

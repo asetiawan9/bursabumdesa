@@ -1,0 +1,29 @@
+RewriteEngine on
+RewriteRule ^menu/([^/]*)/$ menu.php?info=$1 [L]
+RewriteRule ^menuinfo/([^/]*)/$ menuinfo.php?info=$1 [L]
+RewriteRule ^managemenu/([^/]*)/$ managemenu.php?info=$1 [L]
+RewriteRule ^staff/([^/]*)/$ staff.php?info=$1 [L]
+RewriteRule ^staffinfo/([^/]*)/$ staffinfo.php?info=$1 [L]
+RewriteRule ^role/([^/]*)/$ role.php?info=$1 [L]
+RewriteRule ^roleinfo/([^/]*)/$ roleinfo.php?info=$1 [L]
+
+RewriteRule ^user/([^/]*)/$ user.php?info=$1 [L]
+RewriteRule ^userinfo/([^/]*)/$ userinfo.php?info=$1 [L]
+RewriteRule ^project/([^/]*)/$ project.php?usr=$1 [L]
+RewriteRule ^project/posted/([^/]*)/$ project.php?usrid=$1 [L]
+RewriteRule ^project/([^/]*)/([^/]*)/$ project.php?cat=$1&catid=$2 [L]
+RewriteRule ^project-info/([^/]*)/$ project-info.php?info=$1 [L]
+RewriteRule ^comment-info/([^/]*)/$ comment-info.php?info=$1 [L]
+RewriteRule ^edit-project/([^/]*)/$ add-project.php?prjt=$1 [L]
+RewriteRule ^category/([^/]*)/$ category.php?info=$1 [L]
+RewriteRule ^contributors-view/([^/]*)/$ contributors-view.php?info=$1 [L]
+RewriteRule ^contactus-view/([^/]*)/$ contactus-view.php?info=$1 [L]
+RewriteRule ^replymail/([^/]*)/$ replymail.php?sel_id=$1 [L]
+RewriteRule ^faq/([^/]*)/$ faq.php?info=$1 [L]
+RewriteRule ^faq-view/([^/]*)/$ faq-view.php?info=$1 [L]
+RewriteRule ^slider/([^/]*)/$ slider.php?info=$1 [L]
+RewriteRule ^slider-info/([^/]*)/$ slider-info.php?info=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)/$ $1.php

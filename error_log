@@ -1,0 +1,104 @@
+[09-Jun-2018 15:53:56 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'thavasu_equity_crowdfund.options' doesn't exist' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/core/options.php(19): database->fetchAll()
+#3 /home/thavasu/public_html/demo/equity-crowdfunding/core/init.php(22): require('/home/thavasu/p...')
+#4 /home/thavasu/public_html/demo/equity-crowdfunding/includes/header.php(1): require('/home/thavasu/p...')
+#5 /home/thavasu/public_html/demo/equity-crowdfunding/index.php(1): include('/home/thavasu/p...')
+#6 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[11-Jun-2018 12:24:01 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/thavasu/public_html/demo/equity-crowdfunding/list-detail.php:1) in /home/thavasu/public_html/demo/equity-crowdfunding/core/init.php on line 7
+[11-Jun-2018 12:25:23 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/thavasu/public_html/demo/equity-crowdfunding/list-detail.php:1) in /home/thavasu/public_html/demo/equity-crowdfunding/core/init.php on line 7
+[11-Jun-2018 17:21:56 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2018-06-11 order by id desc LIMIT 0, 6' at line 1' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/list.php(56): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[11-Jun-2018 17:22:08 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2018-06-11 order by id desc LIMIT 0, 6' at line 1' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/list.php(56): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[11-Jun-2018 17:23:06 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2018-06-11 order by id desc LIMIT 0, 6' at line 1' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/list.php(56): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[11-Jun-2018 17:25:20 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2018-06-11 order by id desc LIMIT 0, 6' at line 1' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/list.php(56): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[11-Jun-2018 18:43:46 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2018-06-11 order by id desc LIMIT 0, 6' at line 1' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/list.php(56): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[11-Jun-2018 18:43:48 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2018-06-11 order by id desc LIMIT 0, 6' at line 1' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/list.php(56): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[12-Jun-2018 19:46:14 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[12-Jun-2018 19:56:34 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[12-Jun-2018 20:07:31 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[21-Jun-2018 18:47:50 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[21-Jun-2018 18:47:50 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[21-Jun-2018 18:48:42 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[21-Jun-2018 18:48:43 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[27-Jun-2018 20:52:11 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[27-Jun-2018 21:05:51 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[29-Jun-2018 18:26:01 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[29-Jun-2018 18:26:03 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[29-Jun-2018 18:26:06 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[29-Jun-2018 18:26:08 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[29-Jun-2018 19:03:33 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[06-Jul-2018 00:37:20 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 14:58:37 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 14:59:51 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:04:48 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2013 Lost connection to MySQL server during query' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/index.php(211): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[09-Jul-2018 15:04:48 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2013 Lost connection to MySQL server during query' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/index.php(211): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[09-Jul-2018 15:05:49 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2013 Lost connection to MySQL server during query' in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php:56
+Stack trace:
+#0 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(56): PDOStatement->execute()
+#1 /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php(69): database->execute()
+#2 /home/thavasu/public_html/demo/equity-crowdfunding/index.php(211): database->fetchAll()
+#3 {main}
+  thrown in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 56
+[09-Jul-2018 15:12:25 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:13:42 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:20:43 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:25:44 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:26:37 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:27:08 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:28:20 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:31:41 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:34:18 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:34:22 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[09-Jul-2018 15:38:10 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/thavasu/public_html/demo/equity-crowdfunding/core/database.php on line 30
+[23-Jul-2018 07:01:13 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/thavasu/public_html/demo/equity-crowdfunding/login.php on line 77
